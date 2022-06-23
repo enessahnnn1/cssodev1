@@ -1,0 +1,346 @@
+body {
+    font-family: Verdana, monospace, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+    background-color: #87CEEB;
+    }
+
+
+.text-red {
+    color: red;
+}
+
+.fs-small {
+    font-size: 14px;
+}
+
+.fs-medium {
+      font-size: 20px;
+}
+
+.fs-large {
+    font-size: 30px;
+
+}
+
+#first-article {
+    font-size: 50px;
+    text-align: center;
+    color: black;
+}
+
+#second-article {
+    font-size: 16px;
+    text-align: center;
+    color: maroon;
+}
+
+#third-article {
+    font-size: 25px;
+    color: maroon;
+}
+
+#gob-article {
+    font-size: 25px;
+    text-align: center;
+}
+#foto-article{
+    text-align: center;
+}
+
+#afirst-article {
+    text-align: center;
+    font-size: 35px;
+}
+
+#asecond-article {
+    text-align: center;
+    color: maroon;
+    font-size: 25px;
+}
+
+#gobb-article {
+    text-align: center;
+    font-size: 25px;
+}
+
+#athird-article {
+    font-size: 15px;
+    color: azure;
+}
+
+#fotoo-article {
+    text-align: center;
+}
+
+#telif-article {
+    text-align-last: center
+}
+
+#teliif-article {
+    text-align-last: center
+}
+
+
+#ufirst-article {
+    text-align: center;
+    font-size: 35px;
+}
+
+#usecond-article {
+    text-align: center;
+    color: maroon;
+    font-size: 25px;
+}
+
+#fotooo-article {
+    text-align: center;
+}
+
+#teliiif-article {
+    text-align: center;
+}
+
+
+#ugob-article {
+    text-align: center;
+    font-size: 25px;
+}
+
+#cfirst-article {
+    text-align: center;
+    font-size: 35px;    
+}
+
+#csecond-article {
+    text-align: center;
+    font-size: 25px;
+    color: maroon;
+}
+
+#cthird-article {
+    font-size: 20px;
+    color: azure;
+}
+
+#cfoto-article {
+    text-align: center;
+}
+
+#ctelif-article {
+    text-align: center;
+}
+
+#cgob-article {
+    text-align: center;
+    font-size: 25px;
+}
+
+#tfirst-article {
+    text-align: center;
+    font-size: 35px;    
+}
+
+#tsecond-article {
+    text-align: center;
+    font-size: 25px;
+    color: maroon;
+}
+
+#tthird-article {
+    font-size: 15px;
+    color: azure;
+}
+
+#tp-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#tsat-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#takip-article {
+    font-size: 25px;
+    text-align: center;
+}
+
+#tfoto-article {
+    text-align: center;
+}
+
+#ttelif-article {
+    text-align: center;
+}
+
+#bfirst-article {
+    text-align: center;
+    font-size: 35px;    
+}
+
+#bsecond-article {
+    text-align: center;
+    font-size: 25px;
+    color: maroon;
+}
+
+#bthird-article {
+    font-size: 15px;
+    color: azure;
+}
+
+#bp-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#bsat-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#bfoto-article {
+    text-align: center;
+}
+
+#belif-article {
+    text-align: center;
+}
+
+#yfirst-article {
+    text-align: center;
+    font-size: 35px;    
+}
+
+#begeni-article {
+    font-size: 25px;
+    text-align: center;
+}
+
+#yorum-article {
+    font-size: 25px;
+    text-align: center;
+}
+
+#ysecond-article {
+    text-align: center;
+    font-size: 25px;
+    color: maroon;
+}
+
+#ythird-article {
+    font-size: 15px;
+    color: azure;
+}
+
+#yp-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#ysat-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#yfoto-article {
+    text-align: center;
+}
+
+#ytelif-article {
+    text-align: center;
+}
+
+#ifirst-article {
+    text-align: center;
+    font-size: 35px;
+}
+
+#isecond-article {
+    text-align: center;
+    font-size: 25px;
+    color: maroon;
+}
+
+#ithird-article {
+    font-size: 15px;
+    color: azure;
+}
+
+#ip-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#isat-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#ifoto-article {
+    text-align: center;
+}
+
+#itelif-article {
+    text-align: center;
+}
+
+#hesap-div {
+    text-align: center;
+    font-size: 35px;
+}
+
+#hesap-son {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+}
+
+#izlenme-article {
+    font-size: 25px;
+    text-align: center;
+}
+
+#hesap-article {
+    font-size: 25px;
+    text-align: center;
+}
+
+#htelif-article {
+    text-align: center;
+}
+
+#th-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#bh-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#yh-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+#ih-article {
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}

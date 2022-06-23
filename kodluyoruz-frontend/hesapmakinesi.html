@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hesap Makinesi - gobeLMedia</title>
+    <link rel="stylesheet" href="css/gobel.css" />
+    <style>
+
+#tuslar1{
+    margin: 0 auto;
+    width: 350px;
+    height: auto;
+    margin-top:10px;
+	border:3px solid #BBBBBB;
+}
+#hesapEkranı {
+    padding: 10px 0px 10px 0px;
+    border:3px solid #BBBBBB;
+}
+#sonuc {
+    padding: 10px;
+    width: 90%;
+    border: none;
+    border-radius: 3px;
+    text-align: right;
+    font-size: 30px;
+    letter-spacing: 7px;
+}
+button{
+    width: 70px;
+    height: 50px;
+    margin: 4px;
+}
+    </style>
+</head>
+<body>
+    <article id="hesap-article">
+        <tr>
+            <td><a href="index.html" target="_blank" >Ana Sayfa</a></td>
+            <td><a href="urun.html" target="_blank" >Ürünlerimiz</a></td>
+            <td><a href="about-us.html" target="_blank" >Hakkımızda</a></td>
+            <td><a href="contact.html" target="_blank" >İletişim</a></td>
+        </tr>
+        </article>
+    <div id="hesap-div"><h1>gobeLMedia</h1></div>
+    <div id="calculator">
+        <div id="hesapEkranı">
+            <input type="text" id="sonuc" readonly="readonly" value="" />
+        </div>
+        <div id="tuslar1">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>/</button>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>*</button>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>-</button>
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+            <button>+</button>
+        </div>
+    </div>
+    <script>
+"use strict";
+var _tuslar1 = document.querySelectorAll("button"),
+    _tuslar1Count = _tuslar1.length,
+    _sonuc = document.querySelector("#sonuc"),
+    iter = 0;
+
+for (iter = 0; iter < _tuslar1Count; iter++) {
+    _tuslar1[iter].onclick = doit;
+}
+
+function doit() {
+    var _currentValue = this.innerHTML;
+
+    if (_currentValue == "=") {
+        try {
+            _sonuc.value = eval(_sonuc.value);
+        } catch (e) {
+            _sonuc.value = 0;
+        }
+        return;
+    }
+
+    _sonuc.value += _currentValue;
+}
+    </script>
+    <div id="hesap-son">
+        <h3>Sıfırlamak İçin F5 Atın!</h3>
+    </div>
+    <article id="htelif-article">
+        <p>Telif Hakkı @ gobeLMedia</p>
+    </article>
+</body>
+</html>
